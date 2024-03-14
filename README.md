@@ -1,6 +1,6 @@
 # onchain-traits
 
-`onchain-traits` is a naming convention and a standard of defining onchain traits using the token extension with additional_metadata.
+`onchain-traits` is a solana naming convention and a standard of defining onchain traits using the token extension with additional_metadata.
 
 ## 1/ The Issue
 
