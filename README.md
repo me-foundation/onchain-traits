@@ -19,17 +19,8 @@ Within the token22 TokenMetadata, following a naming convention, the on-chain tr
 
 ```rust
 pub struct TokenMetadata {
-    /// The authority that can sign to update the metadata
-    pub update_authority: OptionalNonZeroPubkey,
-    /// The associated mint, used to counter spoofing to be sure that metadata
-    /// belongs to a particular mint
-    pub mint: Pubkey,
-    /// The longer name of the token
-    pub name: String,
-    /// The shortened symbol for the token
-    pub symbol: String,
-    /// The URI pointing to richer metadata
-    pub uri: String,
+    /// ...
+
     /// Any additional metadata about the token as key-value pairs. The program
     /// must avoid storing the same key twice.
     pub additional_metadata: Vec<(String, String)>,
