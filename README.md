@@ -15,6 +15,8 @@
 
 ## 2/ Proposed Solutions
 
+We propose that we name `onchain-traits` with the prefix `@`.
+
 Within the token22 TokenMetadata, following a naming convention, the on-chain traits can be fully compatible with any token22 standard, including token22 vanilla, token22 Metaplex, and token22 WNS.
 
 ```rust
@@ -30,7 +32,7 @@ pub struct TokenMetadata {
 We can directly store trait key-value pairs into the `additional_metadata` field with the convention of the prefix `@` to annotate the fields to be `onchain-traits`.
 
 ```rust
-additional_metadata: [("@attr1", "val1"), ("@attr2", "val2"), ("@attr2", "val2")]
+additional_metadata: [("@attr1", "val1"), ("@attr2", "val2"), ("@attr3", "val3")]
 ```
 
 For example:
