@@ -37,6 +37,5 @@ For example:
 
 <img src="./demo.png" width="600">
 
-We might want to enforce a naming convention like `@attr1` to differentiate trait key-value pairs from other common key-value pairs. 
+We enforce a naming convention like `@attr1` to differentiate trait key-value pairs from other common key-value pairs. Based on this naming convention, we can have 1) an indexing system and 2) on-chain programs to start parsing the on-chain traits and build smart contracts based on these naming rules.
 
-Based on this naming convention, we can have 1) an indexing system and 2) on-chain programs to start parsing the on-chain traits and build smart contracts based on these naming rules.
